@@ -21,6 +21,10 @@
     content:"\1F517";
     
 }
+
+.vicio {
+    padding-top: 15px;
+}
 body {
     background-color: var(--cor-4);
 }
@@ -75,22 +79,21 @@ main > h1 {
     text-align: center;
 }
 main > p {
-    padding: 10px;
-    line-height: 1em;
+    padding: 0px 10px 0px 10px;
     text-indent: 15px;
 }
 main h2 {
     background-color: var(--cor-2);
     color: white;
     text-align: center;
-    padding-left: 10px;
-    line-height: 1.8em;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    
 }
 main h3 {
-    
-    
+
     padding-left: 10px;
-    line-height: 1.8em;
+    
 }
 
 img {
