@@ -1,6 +1,10 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Yeon+Sung&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap');
+@counter-style emoji {
+    system: cyclic;
+    symbols: "\2615"
+}
 
 :root {
     --cor-1: #453829;
@@ -119,6 +123,7 @@ aside h1 {
 }
 aside ul {
     list-style: inside;
+    list-style: emoji;
     
 }
 .banner {
