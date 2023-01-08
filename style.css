@@ -26,7 +26,7 @@
     
 }
 
-.vicio {
+.separação-paragrafo {
     padding-top: 15px;
 }
 body {
@@ -95,17 +95,33 @@ main h2 {
     
 }
 main h3 {
-
+    font-size: medium;
     padding-left: 10px;
     
 }
 
 img {
-    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.514);
     border-radius: 5px;
     width: 50%;
     display: block;
     margin: 10px auto 10px auto;
+}
+div.video {
+    background-color: var(--cor-2);
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+div.video > iframe {
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
 }
 aside {
     background-color: var(--cor-3);
